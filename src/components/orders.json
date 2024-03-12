@@ -1,0 +1,94 @@
+{
+  "orders": [
+    {
+      "id": 1,
+      "customerId": 1,
+      "customerName": "John Doe",
+      "date": "2024-03-10T12:00:00Z",
+      "expectedDeliveryDate": "2024-03-11T12:00:00Z",
+      "status": "Processing",
+      "items": [
+        {
+          "productId": 1,
+          "quantity": 2
+        },
+        {
+          "productId": 2,
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "customerId": 2,
+      "customerName": "Jane Smith",
+      "date": "2024-03-11T10:00:00Z",
+      "expectedDeliveryDate": "2024-03-12T10:00:00Z",
+      "status": "Shipped",
+      "items": [
+        {
+          "productId": 3,
+          "quantity": 3
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "customerId": 3,
+      "customerName": "Alice Johnson",
+      "date": "2024-03-12T11:00:00Z",
+      "expectedDeliveryDate": "2024-03-13T11:00:00Z",
+      "status": "Delivered",
+      "items": [
+        {
+          "productId": 1,
+          "quantity": 1
+        },
+        {
+          "productId": 4,
+          "quantity": 2
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "customerId": 4,
+      "customerName": "Bob Williams",
+      "date": "2024-03-13T09:00:00Z",
+      "expectedDeliveryDate": "2024-03-14T09:00:00Z",
+      "status": "Processing",
+      "items": [
+        {
+          "productId": 2,
+          "quantity": 1
+        },
+        {
+          "productId": 3,
+          "quantity": 1
+        },
+        {
+          "productId": 4,
+          "quantity": 3
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "customerId": 5,
+      "customerName": "Eva Brown",
+      "date": "2024-03-14T14:00:00Z",
+      "expectedDeliveryDate": "2024-03-15T14:00:00Z",
+      "status": "Shipped",
+      "items": [
+        {
+          "productId": 1,
+          "quantity": 2
+        },
+        {
+          "productId": 4,
+          "quantity": 2
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,75 @@
+{
+    "products": [
+      {
+        "id": 1,
+        "name": "Smartphone",
+        "category": "Electronics",
+        "price": 599.99,
+        "stockQuantity": 100
+      },
+      {
+        "id": 2,
+        "name": "Laptop",
+        "category": "Electronics",
+        "price": 999.99,
+        "stockQuantity": 50
+      },
+      {
+        "id": 3,
+        "name": "T-shirt",
+        "category": "Clothing",
+        "price": 19.99,
+        "stockQuantity": 200
+      },
+      {
+        "id": 4,
+        "name": "Jeans",
+        "category": "Clothing",
+        "price": 39.99,
+        "stockQuantity": 150
+      },
+      {
+        "id": 5,
+        "name": "Coffee Maker",
+        "category": "Home & Kitchen",
+        "price": 79.99,
+        "stockQuantity": 75
+      },
+      {
+        "id": 6,
+        "name": "Vacuum Cleaner",
+        "category": "Home & Kitchen",
+        "price": 149.99,
+        "stockQuantity": 50
+      },
+      {
+        "id": 7,
+        "name": "Shampoo",
+        "category": "Health & Beauty",
+        "price": 9.99,
+        "stockQuantity": 300
+      },
+      {
+        "id": 8,
+        "name": "Toothpaste",
+        "category": "Health & Beauty",
+        "price": 4.99,
+        "stockQuantity": 500
+      },
+      {
+        "id": 9,
+        "name": "Gaming Console",
+        "category": "Electronics",
+        "price": 399.99,
+        "stockQuantity": 50
+      },
+      {
+        "id": 10,
+        "name": "Running Shoes",
+        "category": "Clothing",
+        "price": 89.99,
+        "stockQuantity": 100
+      }
+    ]
+  }
+  
