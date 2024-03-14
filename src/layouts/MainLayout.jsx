@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 const MainLayout = ({ children }) => {
   return (
     <div className="min-h-screen w-screen bg-gradient-to-r from-slate-900 to-slate-700 ">
@@ -32,16 +34,16 @@ const MainLayout = ({ children }) => {
               <ul className="menu menu-horizontal">
                 {/* Navbar menu content here */}
                 <li>
-                  <a href="/">Dashboard</a>
+                  <Link to="/">Dashboard</Link>
                 </li>
                 <li>
-                  <a href="/orders">Order Management</a>
+                  <Link to="/orders">Order Management</Link>
                 </li>
                 <li>
-                  <a href="/products">Product Management</a>
+                  <Link to="/products">Product Management</Link>
                 </li>
                 <li>
-                  <a href="/ordersCalendar">Orders Calendar</a>
+                  <Link to="/ordersCalendar">Orders Calendar</Link>
                 </li>
               </ul>
             </div>
@@ -61,16 +63,16 @@ const MainLayout = ({ children }) => {
           <ul className="menu p-4 w-80 min-h-full bg-base-200 text-white">
             {/* Sidebar content here */}
             <li>
-              <a href="/">Dashboard</a>
+              <Link to="/">Dashboard</Link>
             </li>
             <li>
-              <a href="/orders">Order Management</a>
+              <Link to="/orders">Order Management</Link>
             </li>
             <li>
-              <a href="/products">Product Management</a>
+              <Link to="/products">Product Management</Link>
             </li>
             <li>
-              <a href="/ordersCalendar">Orders Calendar</a>
+              <Link to="/ordersCalendar">Orders Calendar</Link>
             </li>
           </ul>
         </div>
