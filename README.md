@@ -1,5 +1,5 @@
 
-# ERP System
+# ERP System - [https://aj-erpsystem.netlify.app/](https://aj-erpsystem.netlify.app/)
 
 The goal of this project is to create a simplified interface for an ERP (Enterprise Resource Planning) system, designed to manage basic business operations efficiently. The system will consist of the following pages:
 -   Dashboard - Provides an overview of the system's features.
